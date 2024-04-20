@@ -22,5 +22,12 @@
     "toml",
     "gql",
     "graphql"
-  ]
+  ],
+  // Enable proper autocomplete, syntax highlighting, and linting for Tailwind CSS
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
 }
