@@ -9,6 +9,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     '@vueuse/nuxt' /* disabled from auto-import: toRefs, useFetch, useCookie, useHead, useTitle, useStorage */,
+    'nuxt-icon',
+    'nuxt-typed-router',
   ],
   site: {
     url: 'https://example.com',
