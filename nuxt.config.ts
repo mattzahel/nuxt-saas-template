@@ -1,3 +1,6 @@
+import daisyui from 'daisyui';
+import tailwindTypography from '@tailwindcss/typography';
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -24,6 +27,11 @@ export default defineNuxtConfig({
       login: '/login',
       callback: '/dashboard',
       exclude: ['/'],
+    },
+  },
+  tailwindcss: {
+    config: {
+      plugins: [daisyui, tailwindTypography],
     },
   },
 });

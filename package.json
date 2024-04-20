@@ -38,6 +38,8 @@
     "@antfu/eslint-config": "^2.15.0",
     "@commitlint/cli": "^19.2.2",
     "@commitlint/config-conventional": "^19.2.2",
+    "@tailwindcss/typography": "^0.5.12",
+    "daisyui": "^4.10.2",
     "eslint": "^9.1.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
