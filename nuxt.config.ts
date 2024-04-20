@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/image',
     '@nuxtjs/seo',
+    '@nuxtjs/supabase',
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     '@vueuse/nuxt' /* disabled from auto-import: toRefs, useFetch, useCookie, useHead, useTitle, useStorage */,
@@ -17,5 +18,12 @@ export default defineNuxtConfig({
     name: 'Awesome Site',
     description: 'Welcome to my awesome site!',
     defaultLocale: 'en' /* not needed if you have @nuxtjs/i18n installed */,
+  },
+  supabase: {
+    redirectOptions: {
+      login: '/login',
+      callback: '/dashboard',
+      exclude: ['/'],
+    },
   },
 });
