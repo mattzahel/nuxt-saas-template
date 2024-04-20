@@ -1,0 +1,26 @@
+{
+  // Enable the ESlint flat config support
+  "eslint.experimental.useFlatConfig": true,
+  // Enable the prettier and format on save
+  "prettier.enable": true,
+  "editor.formatOnSave": true,
+  // Auto fix
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  // Enable eslint for all supported languages
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml",
+    "gql",
+    "graphql"
+  ]
+}
